@@ -1,0 +1,131 @@
+*{
+    background-color:#8CC461;
+    
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.whole{
+    display: flex;
+    margin-left: 240px;
+    margin-top: 62px;
+    width:800px;
+    height:158px;
+    border:2px solid white;
+    border-radius: 9px;
+    position: relative;
+
+
+}
+.left>ul{
+    list-style: none;
+    font-weight: 600;
+    font-family:roboto ;
+    font-size: 40px;
+    margin-top: 5px;
+    position: absolute;
+    color: #ffff;
+}
+.right{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left:500px;
+    justify-content: space-between;
+
+    
+    
+}
+.com_score{
+    height: 128px;
+    width:139px;
+    background-color:#ffff;
+    border-radius: 9px;
+    /*border-collapse: collapse;*/
+    overflow: hidden;
+    perspective: 1px; 
+    /* margin-top: 62px;
+    margin-left: 713px;*/
+    position: absolute;
+    top: 15px;
+    left: 0.1px;
+
+}
+.com_score>p{
+    font-weight: 600;
+    font-size: 17px;
+    background-color:#ffff;
+    text-align: center;
+}
+.com_score>h1{
+    background-color:#ffff;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: roboto;
+    text-align: center;
+
+}
+.your_score{
+    height: 128px;
+    width:139px;
+    background-color:#ffff;
+    border-radius: 9px;
+    /* margin-top: 77px;
+    margin-left: 881px;
+    position: absolute;
+    j
+} */overflow: hidden;
+    perspective: 1px; 
+    position: absolute;
+    left: 150px;
+    top:15px;
+}
+.your_score>p{
+    font-weight: 600;
+    font-size: 17px;
+    background-color:#ffff;
+    
+    text-align: center;
+}
+.your_score>h1{
+    font-family: roboto;
+    font-size: 40px;
+    font-weight: 700;
+    background-color:#ffff;
+    text-align: center;
+    
+}.stone{
+    position: relative;
+}
+.scissor{
+    position: relative;
+}
+
+
+ .group2{
+    position: relative;
+    top:1px;
+    left:477px;
+ }
+ .group3{
+    position: relative;
+    bottom:335px;
+    left:713px;
+ }
+ .group1{
+    position: relative;
+    bottom: 400px;
+    left: 595px;
+ }
+ .image1{
+    position: absolute;
+    left:520px;
+    top: 70px;
+    z-index: 1;
+    
+ }
+.image2{
+    position: absolute;
+    left:700px;
+    bottom:400px;
+    z-index: 1;
+}
